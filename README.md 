@@ -1,0 +1,96 @@
+# Pre-work - _Memory Game_
+
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
+
+Submitted by: Flor Hernandez Rodriguez
+
+Time spent: 2 hours spent in total
+
+Link to project: Code (https://glitch.com/edit/#!/light-and-sound-game-fhr) Live Site: (https://light-and-sound-game-fhr.glitch.me)
+
+## Required Functionality
+
+The following **required** functionality is complete:
+
+- [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+- [x] "Start" button toggles between "Start" and "Stop" when clicked.
+- [x] Game buttons each light up and play a sound when clicked.
+- [x] Computer plays back sequence of clues including sound and visual cue for each button
+- [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
+- [x] User wins the game after guessing a complete pattern
+- [x] User loses the game after an incorrect guess
+
+The following **optional** features are implemented:
+
+- [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+- [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+- [x] More than 4 functional game buttons
+- [ ] Playback speeds up on each turn
+- [ ] Computer picks a different pattern each time the game is played
+- [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+- [ ] Game button appearance change goes beyond color (e.g. add an image)
+- [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+- [ ] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+![](https://cdn.glitch.com/ee2044e3-f186-4562-831f-5934a04d0229%2FMemoryGameF.gif?v=1616610800336) --gif in assets--
+![](https://i.imgur.com/awmECUm.gif) --same gif but in imgur--
+
+## Reflection Questions
+
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+   - I used this source to help me align the start and stop button.
+   https://coder-coder.com/how-to-center-button-with-html-css/
+   - I used this website to find the colors for the buttons.
+   https://htmlcolorcodes.com/color-names/
+
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+   - One challenge I faced in the pre-work was constructing the code for the conditional logic inside the guess function. 
+   I sometimes struggle with just looking at the code and knowing what to write next.  I started by sketching down the flow
+   chart provided and writing down what each box represents as sometimes writing down things by hand allows me to process 
+   them better. For instance for the lose game box I commented “Lose game if guess is incorrect” and for the win game box 
+   I wrote “Win if guess is correct, if the turn is over, and if it is the last turn”. I did this with each path to be able
+   to track how the logic will go into words and then minimized them. I was able to write the code for the conditional logic
+   and checked if it was similar to the provided version. Another struggle I had was when I added button 6 to the game. As 
+   I was going through the demo, my game kept crashing or letting me know I lost the game even when I guessed the correct button.
+   Since the I knew the guessing was incorrect or at least was showing as incorrect I looked through my index.html file for an error.
+   I was able to see how I mistakenly put button 6 as the onclick= “guess(5)” rather than (6). This immediately fixed my problem, 
+   teaching me how one small error can corrupt the whole code. 
+
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+   - After completing the pre-work I have some questions regarding the format of the HTML elements regarding the style. 
+   Would we be taught what code to use to make our web page look professional as in how the buttons, text, information, 
+   etc are aligned within the page. I understand how important it is for a website to not only look pleasing to the eyes
+   but also be easy to follow. I would also like to gain a better understanding on how to apply URLs into our code in order
+   to allow the user to continue to other tabs or links on our website. 
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+   - If I had more time to work on this project as well a bit more knowledge, I would spend them making the game design more 
+   entertaining for the player. I am not sure if it is possible, but I would like to make the buttons move or shift after the 
+   player selects it and plays the sound. With the buttons having the image of different musical notes and by moving once selected 
+   it would give the player the illusion of musical notes playing as you would see in a cartoon animation. Additionally, I would be
+   interested in having a score counter and display to show the player their best score in the game. Most online games tend to keep
+   the score in sight to encourage the player to keep playing the game. This would also aid in the website’s traffic as the player 
+   will continue playing the game or share it with others to beat their score. 
+
+## License
+
+    Copyright Flor Hernandez Rodriguez
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
